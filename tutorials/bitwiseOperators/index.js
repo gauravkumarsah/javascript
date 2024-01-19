@@ -1,14 +1,36 @@
-// & AND 1 & 1 = 1 everything else 0
-// | OR 0 | 0 = 0 everything else 1
-// ^ XOR  OR case - 1 | 1 (ie 0|1, 1|0 = 1, 1|1, 0|0 = 0) SAME IS 0, DIFFERENT IS 1,
-// ~ NOT
-// << LEFT SHIFT
-// >> RIGHT SHIFT
-//
-
-console.log(1 & 1, 0 & 0, 1 & 0, 0 & 1);
-console.log(1 | 1, 0 | 0, 1 | 0, 0 | 1);
-console.log(1 ^ 1, 0 ^ 0, 1 ^ 0, 0 ^ 1);
-console.log(~2, ~3, ~4, ~5);
-console.log(1 << 2, 1 << 3, 1 << 4, 1 << 5);
-console.log(2 >> 1, 3 >> 1, 4 >> 1, 5 >> 1);
+const data = [{
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "quis ut nam facilis et officia qui",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "fugiat veniam minus",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "et porro tempora",
+    "completed": true
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+    "completed": false
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+    "completed": false
+  }]
