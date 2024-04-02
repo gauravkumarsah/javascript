@@ -1,0 +1,11 @@
+.suggestions {
+  width: max-content;
+  height: max-content;
+  padding: 1em 0.5em;
+  border: 1px solid #ccc;
+}
+
+input {
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}

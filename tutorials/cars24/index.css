@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 700px;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  padding: 20px;
+}
+
+span {
+  background: #f59d9d;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
