@@ -10,7 +10,7 @@ const PromisePolyfill = function (executor) {
   function resolve(val) {
     value = val;
     isFulfilled = true;
-    if (typeof onReject === 'function') {
+    if (typeof onResolve === 'function') {
       onResolve(value);
       isCalled = true;
     }
