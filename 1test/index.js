@@ -29,7 +29,8 @@ function App() {
           width: '200px',
           height: '30px',
           overflow: 'hidden',
-          textAlign: 'center',
+          textAlign: 'left',
+
         }}
       >
         <div
