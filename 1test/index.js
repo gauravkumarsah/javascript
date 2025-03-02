@@ -3,23 +3,22 @@ import './App.css';
 
 function App() {
   const [charge, setCharge] = useState(0);
+  const sentence = " The lazy dog jumped over brown fox ";
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (charge < 100) {
-        setCharge((prevCharge) => prevCharge + 10);
-      } else {
-        clearInterval(interval);
+
+  const upDatedSentence = sentence.trim()
+  
+  
+  let len = 0
+  for(let i = upDatedSentence.length -1; i >=0; i--){
+  console.log("upDatedSentence", i)
+      if(upDatedSentence === " "){
+        len = upDatedSentence.length - i
         return;
       }
-    }, 200);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-
-  console.log(charge);
+  }
+  
+  console.log(len)
 
   return (
     <>
